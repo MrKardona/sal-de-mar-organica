@@ -300,6 +300,8 @@ p { margin: 0 0 1em; }
 @keyframes cue { 0% { transform: scaleY(0); transform-origin: top; } 50% { transform: scaleY(1); transform-origin: top; } 51% { transform-origin: bottom; } 100% { transform: scaleY(0); transform-origin: bottom; } }
 
 @media (max-width: 700px) {
+  /* En celular el banner no se fija: la página baja normal y la animación acompaña el scroll */
+  .hero { height: 100vh; height: 100svh; }
   .hero-media img { height: 112%; object-position: center top; transform-origin: 50% 45%; }
   .hero-shade {
     background: linear-gradient(180deg, rgba(8, 30, 36, 0.7) 0%, rgba(8, 30, 36, 0.35) 45%, rgba(8, 30, 36, 0) 58%, rgba(8, 30, 36, 0.7) 100%);
