@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="es-CO" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Política de tratamiento de datos personales · Sal de Mar Orgánica</title>
+  <meta name="description" content="Política de tratamiento de datos personales de Sal de Mar Orgánica conforme a la Ley 1581 de 2012.">
+  <meta name="theme-color" content="#0c2a31">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="politicas" data-header="light">
+  <header id="site-header"></header>
+  <main>
+    <section class="section" style="padding-top:150px">
+      <div class="container prose">
+        <span class="eyebrow">Políticas</span>
+        <h1 style="font-size:clamp(2.2rem,5vw,3.6rem)">Política de tratamiento de datos personales</h1>
+        <p class="updated">Última actualización: octubre de 2026</p>
+
+        <h2>1. Responsable del tratamiento</h2>
+        <p><strong data-site="empresa.razonSocial">Sal de Mar Orgánica</strong><span id="nit"></span>, con domicilio en <span data-site="empresa.ciudad">Itagüí, Antioquia, Colombia</span>. Canales de contacto: WhatsApp <span id="wa-num"></span> <span data-requires="email">y correo <span data-site="email">correo</span></span>.</p>
+
+        <h2>2. Marco legal</h2>
+        <p>Esta política se rige por la Ley Estatutaria 1581 de 2012, el Decreto 1377 de 2013 (compilado en el Decreto 1074 de 2015) y demás normas que las modifiquen o complementen.</p>
+
+        <h2>3. Datos que recolectamos</h2>
+        <p>Solo recolectamos los datos necesarios para atender tu pedido: nombre, número de teléfono, ciudad, dirección de entrega, correo electrónico (opcional) y la información del pedido. No recolectamos datos sensibles.</p>
+
+        <h2>4. Finalidades</h2>
+        <ul>
+          <li>Procesar, confirmar y entregar tus pedidos.</li>
+          <li>Gestionar envíos con empresas transportadoras.</li>
+          <li>Atender preguntas, peticiones, quejas, reclamos y garantías.</li>
+          <li>Emitir facturas y cumplir obligaciones legales y contables.</li>
+          <li>Enviarte información sobre productos y promociones, <strong>solo si nos autorizas</strong>. Puedes retirar esta autorización en cualquier momento.</li>
+        </ul>
+
+        <h2>5. Con quién compartimos tus datos</h2>
+        <p>No vendemos ni alquilamos tus datos. Solo los compartimos con terceros necesarios para cumplir tu pedido (empresas de mensajería y transportadoras, plataformas de pago) o cuando una autoridad competente lo exija.</p>
+
+        <h2>6. Derechos del titular</h2>
+        <p>Como titular de los datos tienes derecho a:</p>
+        <ul>
+          <li>Conocer, actualizar y rectificar tus datos personales.</li>
+          <li>Solicitar prueba de la autorización que nos diste.</li>
+          <li>Ser informado sobre el uso que les damos a tus datos.</li>
+          <li>Presentar quejas ante la Superintendencia de Industria y Comercio (SIC).</li>
+          <li>Revocar la autorización o solicitar la supresión de tus datos cuando no exista un deber legal o contractual de conservarlos.</li>
+          <li>Acceder de forma gratuita a tus datos personales.</li>
+        </ul>
+
+        <h2>7. Consultas y reclamos</h2>
+        <p>Puedes ejercer tus derechos escribiéndonos por WhatsApp o al correo de contacto, indicando tu nombre, número de identificación, la solicitud y un medio para responderte.</p>
+        <ul>
+          <li><strong>Consultas:</strong> se responden en un máximo de 10 días hábiles, prorrogables por 5 días hábiles más.</li>
+          <li><strong>Reclamos</strong> (corrección, actualización, supresión o revocatoria): se responden en un máximo de 15 días hábiles, prorrogables por 8 días hábiles más.</li>
+        </ul>
+
+        <h2>8. Seguridad</h2>
+        <p>Adoptamos medidas razonables para proteger tus datos contra pérdida, acceso no autorizado o uso indebido.</p>
+
+        <h2>9. Datos de navegación</h2>
+        <p>Este sitio no utiliza formularios que almacenen tus datos en nuestros servidores: la información que escribes en el formulario de contacto se envía directamente a nuestro WhatsApp. Si en el futuro usamos herramientas de analítica o publicidad (por ejemplo, Meta Pixel o Google Analytics), actualizaremos esta política.</p>
+
+        <h2>10. Vigencia</h2>
+        <p>Esta política rige desde su publicación. Tus datos se conservarán mientras sean necesarios para las finalidades descritas y para cumplir nuestras obligaciones legales. Cualquier cambio sustancial será publicado en esta página.</p>
+      </div>
+    </section>
+  </main>
+  <footer id="site-footer"></footer>
+  <script src="js/config.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    document.getElementById("wa-num").textContent = "+" + SITE.whatsapp.replace(/^57(\d{3})(\d{3})(\d{4})$/, "57 $1 $2 $3");
+    if (SITE.empresa.nit) document.getElementById("nit").textContent = ", identificada con NIT " + SITE.empresa.nit;
+  </script>
+</body>
+</html>
