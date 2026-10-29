@@ -23,6 +23,7 @@
     ["nosotros", "quienes-somos.html", "¿Quiénes somos?"],
     ["productos", "index.html#productos", "Productos"],
     ["faq", "preguntas-frecuentes.html", "Preguntas"],
+    ["iglesias", "sal-de-la-tierra.html", "Iglesias"],
     ["contacto", "contacto.html", "Contacto"],
   ];
 
@@ -74,6 +75,7 @@
             <ul>
               <li><a href="index.html#productos">Productos</a></li>
               <li><a href="quienes-somos.html">¿Quiénes somos?</a></li>
+              <li><a href="sal-de-la-tierra.html">Para iglesias</a></li>
               <li><a href="preguntas-frecuentes.html">Preguntas frecuentes</a></li>
               <li><a href="contacto.html">Contacto</a></li>
             </ul>
