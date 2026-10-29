@@ -3,6 +3,7 @@
    ========================================================================== */
 
 :root {
+  color-scheme: only light; /* evita que el modo noche del navegador cambie los colores */
   --ink: #0c2a31;
   --ink-soft: #3c5a60;
   --sea: #13606a;
@@ -30,7 +31,7 @@
 *::before,
 *::after { box-sizing: border-box; }
 
-html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; background: var(--sand); color: var(--ink); }
 
 body {
   margin: 0;
