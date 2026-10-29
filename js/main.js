@@ -142,7 +142,7 @@
           <div class="product-body">
             <h3>${p.nombre}</h3>
             <p>${p.descripcion}</p>
-            <div class="price">${S.formatoPrecio(p.precio)}${p.precioAntes ? `<s>${S.formatoPrecio(p.precioAntes)}</s>` : ""}</div>
+            <div class="price">${S.formatoPrecio(p.precio)}${p.precioAntes ? `<s>${S.formatoPrecio(p.precioAntes)}</s>` : ""}<small class="price-note">+ envío</small></div>
             <div class="buy-row">
               <div class="qty" role="group" aria-label="Cantidad">
                 <button type="button" data-step="-1" aria-label="Quitar uno">−</button>
@@ -163,7 +163,7 @@
       const update = () => {
         const n = Number(out.value || out.textContent);
         link.href = S.linkWhatsApp(
-          `Hola, quiero pedir:\n• ${n} x ${p.nombre} (${S.formatoPrecio(p.precio)} c/u)\nTotal productos: ${S.formatoPrecio(p.precio * n)}\n\nMi nombre:\nCiudad / barrio:\nDirección:`
+          `Hola, quiero pedir:\n• ${n} x ${p.nombre} (${S.formatoPrecio(p.precio)} c/u)\nTotal productos: ${S.formatoPrecio(p.precio * n)} (sin envío)\n\nMi nombre:\nCiudad / barrio:\nDirección:`
         );
       };
       card.querySelectorAll("[data-step]").forEach((b) =>

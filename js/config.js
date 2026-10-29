@@ -21,19 +21,19 @@ window.SITE = {
   productos: [
     {
       id: "1kg",
-      nombre: "Sal de Mar Orgánica 1 kg",
+      nombre: "Sal Delgada para Preparaciones 1 kg",
       peso: "1 kg",
-      precio: 35000, // PENDIENTE
+      precio: 69900,
       precioAntes: null,
       etiqueta: "Más vendida",
       imagen: "assets/img/packshot.webp",
-      descripcion: "La presentación familiar. Rinde para semanas de cocina diaria, parrilla y conservas.",
+      descripcion: "La presentación familiar. Rinde para semanas de cocina diaria, parrilla, conservas y baños de sal.",
     },
     {
       id: "500g",
       nombre: "Sal de Mar Orgánica 500 g",
       peso: "500 g",
-      precio: 20000, // PENDIENTE
+      precio: 39900,
       precioAntes: null,
       etiqueta: "Para probar",
       imagen: "assets/img/packshot.webp", // PENDIENTE: foto real de 500 g

@@ -26,6 +26,14 @@ window.DATA = {
       a: "Sí. Muchas personas disuelven una pizca en agua o en bebidas caseras con limón como parte de su rutina. Hazlo siempre con moderación.",
     },
     {
+      q: "¿Puedo usarla para baños de sal?",
+      a: "Sí. Disuelve 1 taza en la tina con agua tibia para un baño de inmersión, o 3 cucharadas en una ponchera para un baño de pies, de 10 a 20 minutos. También puedes mezclarla con aceite de coco u oliva como exfoliante. Es de uso externo y tradicional: no la apliques sobre heridas abiertas y, si tienes una condición de salud, consulta a tu médico.",
+    },
+    {
+      q: "¿El precio incluye el envío?",
+      a: "No. El valor del envío depende de tu ciudad y del peso del pedido; te lo confirmamos por WhatsApp antes de despachar, para que conozcas el total sin sorpresas.",
+    },
+    {
       q: "¿Cuánta sal se recomienda consumir al día?",
       a: "Que sea una sal natural no significa que se pueda consumir sin medida. La recomendación general es moderar el consumo de sal. Si tienes hipertensión, enfermedad renal u otra condición, consulta con tu médico.",
     },
